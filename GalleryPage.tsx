@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { PROJECTS as INITIAL_PROJECTS } from '../constants';
+import { PROJECTS as INITIAL_PROJECTS } from './constants';
 import { Project } from '../types';
 import LazyImage from './LazyImage';
 
