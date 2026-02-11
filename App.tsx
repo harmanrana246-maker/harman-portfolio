@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import GalleryPage from './components/GalleryPage';
+import Navbar from './Navbar';
+import Hero from './Hero';
+import About from './About';
+import Projects from './Projects';
+import Skills from './Skills';
+import GalleryPage from './/GalleryPage';
 
 const App: React.FC = () => {
   const [currentView, setCurrentView] = useState<'home' | 'portfolio'>('home');
